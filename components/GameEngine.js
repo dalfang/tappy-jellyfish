@@ -38,7 +38,7 @@ const GameEngine = (props) => {
   // Load images
   const bg = useImage(require("../assets/img/sea-bg.png"));
   const pipeBottom = useImage(require("../assets/img/rock.png"));
-  const pipeTop = useImage(require("..//assets/img/rock.png"));
+  const pipeTop = useImage(require("../assets/img/rock.png"));
   const base = useImage(require("../assets/img/basedark.png"));
   const fishUpFlap = useImage(require("../assets/img/playerup.png"));
   const fishMidFlap = useImage(require("../assets/img/playerright.png"));
@@ -138,7 +138,7 @@ const GameEngine = (props) => {
   useAnimatedReaction(
     () => fishY.value,
     (currentValue, previousValue) => {
-      const center = { x: fishX + 58, y: fishY.value + 33 };
+      const center = { x: fishX + 40, y: fishY.value + 30 };
 
       if (currentValue > height - 100 || currentValue < 0) {
         gameOver.value = true;
@@ -218,7 +218,7 @@ const GameEngine = (props) => {
   });
 
   const fishOrigin = useDerivedValue(() => {
-    return { x: width / 4 + 74, y: fishY.value + 88 };
+    return { x: width / 4 + 84, y: fishY.value + 98 };
   });
 
   const fontFamily = Platform.select({ ios: "Helvetica", default: "serif" });
@@ -263,8 +263,8 @@ const GameEngine = (props) => {
               image={displayedFishImage}
               y={fishY}
               x={fishX}
-              width={65}
-              height={47}
+              width={64}
+              height={48}
             />
           </Group>
 

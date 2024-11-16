@@ -1,51 +1,25 @@
-# Welcome to your Expo app 👋
+# TappyJelly 🐙
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Welcome to **TappyJelly**, a fun and exciting game where you control a jellyfish 🦑 to escape rocks 🪨 and collect points! Tap the screen to make the jellyfish jump and avoid obstacles. How long can you survive in the ocean? 🌊
 
-## Get started
+## How to Play 🎮
 
-1. Install dependencies
+1. Tap anywhere on the screen to make the jellyfish jump.
+2. Avoid colliding with rocks (they will cause the game to end) ⛔️.
+3. Try to collect as many points as possible! 🏅
 
-   ```bash
-   npm install
-   ```
+## Features ✨
 
-2. Start the app
+- Simple and engaging gameplay with smooth animations 🐠.
+- Cute jellyfish character 🦑.
+- Dynamic obstacles (rocks) and random generation 🪨.
+- Sound effects and background music 🎶.
+- Game Over screen with score tracking 📊.
 
-   ```bash
-    npx expo start
-   ```
+## Technologies Used 💻
 
-In the output, you'll find options to open the app in a
+- **React Native**: A framework for building mobile apps using JavaScript and React.
+- **React Native Skia**: For rendering images and animations in the game.
+- **React Native Reanimated**: For smooth animations and transitions.
+- **Expo**: For managing the project and dependencies.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-# tappy-jellyfish

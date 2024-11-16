@@ -2,27 +2,40 @@
   "expo": {
     "name": "tappy-jellyfish",
     "slug": "tappy-jellyfish",
+    "description": "Welcome to TappyJelly a fun and exciting game where you control a jellyfish to escape rocks and collect points! Tap the screen to make the jellyfish jump and avoid obstacles.",
     "version": "1.0.0",
     "orientation": "portrait",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff",
       "platforms": ["ios", "android"]
     },
-    "newArchEnabled": true, 
+    "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dalfan.tappyjellyfish"
     },
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#ffffff"
+      },
+      "package": "com.dalfan.tappyjellyfish"
+    },
+    "web": {},
+    "plugins": ["expo-font"],
+    "extra": {
+      "eas": {
+        "projectId": "58af0122-fd50-4be4-b2da-1f466b4e2aaa"
       }
     },
-    "web": {
+    "runtimeVersion": {
+      "policy": "appVersion"
     },
-    "plugins": [
-      "expo-font"
-    ]
+    "updates": {
+      "url": "https://u.expo.dev/58af0122-fd50-4be4-b2da-1f466b4e2aaa"
+    }
   }
 }
